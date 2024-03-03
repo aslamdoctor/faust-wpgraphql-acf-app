@@ -13,5 +13,9 @@ Welcome to the experimental Faust getting started example.
 
 All the Post Types and Fields registered using ACF plugin have been placed under `/acf` folder for importing in your WordPress project.
 
+# WordPress Data
+
+All the `Songs` and `Albums` data can be found as WordPress export XML file under `/wp-exports` folder.
+
 # Reference
 https://www.youtube.com/watch?v=q71fEdtqoHI&t=244s
