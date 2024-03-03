@@ -1,21 +1,21 @@
-# faust-getting-started
+# Faust.js App
 
 Welcome to the experimental Faust getting started example.
 
-# Required Plugins
+## Required Plugins
 
 - Faust.js
 - WPGraphQL
 - Advanced Custom Fields
 - WPGraphQL for ACF
 
-# ACF Fields & Post Types
+## ACF Fields & Post Types
 
 All the Post Types and Fields registered using ACF plugin have been placed under `/acf` folder for importing in your WordPress project.
 
-# WordPress Data
+## WordPress Data
 
 All the `Songs` and `Albums` data can be found as WordPress export XML file under `/wp-exports` folder.
 
-# Reference
+## Reference
 https://www.youtube.com/watch?v=q71fEdtqoHI&t=244s
