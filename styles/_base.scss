@@ -57,3 +57,69 @@ img {
 	color: var(--wpe--color--white);
 	background-color: var(--wpe--color--accent);
 }
+
+.gallery{
+	margin:5% 0;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 15px;
+}
+
+.galleryItem{
+	list-style-type: none;
+	&:hover{
+		img{
+			opacity: .6;
+		}
+	}
+}
+
+.backButton{
+	text-align: right;
+	margin:2% 5%;
+	font-weight: bold;
+	cursor: pointer;
+
+	&:hover{
+		text-decoration: underline;
+	}
+}
+
+.title{
+	text-align: center;
+}
+
+.details{
+	text-align: center;
+
+	&.lyrics{
+		max-width: 400px;
+		margin:0 auto;
+	}
+}
+
+.cover{
+	display: block;
+	margin:0 auto 30px auto;
+	max-width: 400px;
+}
+
+.trackList{
+	text-align: center;
+	text-decoration: none;
+	list-style-type: none;
+	padding-inline-start: 0;
+}
+
+.listItem a{
+	text-decoration: none;
+	color:#000;
+
+	&:hover{
+		font-weight: bold;
+	}
+}
+
+.lyrics{
+	white-space: pre-wrap;
+}
