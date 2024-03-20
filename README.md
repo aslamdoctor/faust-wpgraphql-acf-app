@@ -4,7 +4,7 @@ Welcome to the experimental Faust getting started example.
 
 ## Required Plugins
 
-- [Faust.js](https://faustjs.org/)
+- [Faust.js](https://wordpress.org/plugins/faustwp/)
 - [WPGraphQL](https://wordpress.org/plugins/wp-graphql/)
 - [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/)
 - [WPGraphQL for ACF](https://wordpress.org/plugins/wpgraphql-acf/)
